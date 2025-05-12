@@ -9,11 +9,7 @@ function Student (props) {
         </div>
     );
 }
-Student.propTypes = {
-    name: PropTypes.string,
-    age: PropTypes.number,
-    isStudent: PropTypes.bool,
-}
+
 Student.defaultProps = {
     name: "guest",
     age: 0,
